@@ -1,0 +1,549 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/banner.webp);
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: white;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.nav button{
+    height: 55%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 45px;
+    align-items: center;
+    list-style: none;
+}
+.lists{
+    margin: 20px;
+}
+
+
+
+
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    margin: none;
+    
+}
+
+.text h1{
+    font-size: 55px;
+    font-weight: 900;
+    color: rgb(53, 53, 53);
+}
+
+.text button{
+    height: 95%;
+    width: 10%;
+    background-color: orangered;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 20px;
+}
+.text p{
+    font-size: 25px;
+    color: gray;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+}
+
+.top{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chini{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chini1 h4{
+    font-weight: 800;
+    color: gray;
+    font-size: 25px;
+}
+
+
+.chini1, .chini2, .chini3{
+    height: 100%;
+    width: 30%;
+    margin-left: 9%;
+    margin: 2%;
+}
+
+.chini1 img, .chini2 img, .chini3 img{
+    height: 40%;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.chini2 h4{
+    font-size: 25px;
+    font-weight: 800;
+    color: grey;
+}
+
+.chini3 h4{
+    font-size: 25px;
+    font-weight: 800;
+    color: grey;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+    display: flex;
+}
+
+.right{
+    height: 100%;
+    width: 55%;
+    background-image: url(/images/Family_cooking.webp);
+    background-size: cover;
+}
+
+.left{
+    height: 100%;
+    width: 55%;
+    background-color: rgb(243, 228, 230);
+    flex-direction: column;
+    margin-bottom: 35%;
+}
+
+
+.bar{
+    flex-direction: column;
+    margin-top: 26%;
+}
+.left h4{
+    font-size: 35px;
+    font-weight: 900;
+    color: orangered;
+    margin-left: 20%;
+    margin: 5%;
+}
+
+.left p{
+    margin-left: 9%;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-bottom: 10%;
+    margin: 3%;
+    /* margin-right: 25%; */
+}
+
+.format{
+    list-style-type: lower-roman;
+    font-size: 20px;
+    justify-content: space-evenly;
+    margin: 4%;
+    margin-left: 12%;
+}
+
+.left button{
+    height: 10%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    background-color: orangered;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.left button:hover{
+    background-color: blue;
+}
+.bar h4:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+
+.page4{
+    height: 100vh;
+    width: 100%;
+}
+
+
+.juu{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.juu h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.juu p{
+    font-size: 20px;
+    color: gray;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.bottom{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.bottom1, .bottom2, .bottom3{
+    height: 100%;
+    width: 30%;
+    margin-top: 9%;
+    margin-left: 6%;
+}
+
+.bottom1 img, .bottom2 img, .bottom3 img{
+    height: 40%;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.button{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    height: 50%;
+    width: 20%;
+    margin-left: 40%;
+    margin-bottom: 40%;
+    border-radius: 45px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.up{
+    height: 20%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.up h2{
+    font-size: 35px;
+    color: rgb(48, 48, 48);
+    font-weight: lighter;
+}
+
+.down{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly;  */
+    /* margin: 3%; */
+}
+
+.down1, .down2, .down3, .down4{
+    height: 100%;
+    width: 35%;
+    /* margin-left: 5%; */
+    margin: 5%;
+}
+
+.down1 img, .down2 img, .down3 img, .down4 img{
+    height: 65%;
+    width: 95%;
+}
+
+.jina{
+    height: 45%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+
+.content h4{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(59, 58, 58);
+    text-align: center;
+}
+
+.content p{
+    font-size: 15px;
+    margin-right: 25%;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/subscribe.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page6 p{
+    text-align: center;
+    color: gray;
+    margin-bottom: 5%;
+
+}
+
+.ndani{
+    height: 50%;
+    width: 75%;
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 9%;
+    
+}
+
+.ndani h5{
+    font-size: 25px;
+    color: rgb(83, 82, 82);
+    font-weight: 700;
+}
+
+
+.ndani input{
+    /* height: 100%; */
+    width: 25%;
+    margin-bottom: 3%;
+    display: flex;
+}
+
+
+
+.page6 text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(128, 128, 128, 0.667);
+}
+
+.page7{
+    height: 100vh;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.high{
+    height: 10%;
+    width: 100%;
+}
+
+.low{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    margin-right: 10%;
+    justify-content: space-evenly;
+    
+}
+
+
+.low1 li, .low2 li, .low3 li, .low4 li, .low5 li{
+    color: rgb(153, 153, 153);
+    list-style: none;
+    font-size: larger;
+    
+}
+
+.low1 h4, .low2 h4, .low3 h4, .low4 h4, .low5 h4{
+    color: rgb(103, 102, 102);
+}
+
+
+.low4 img{
+    height: 25%;
+    width: 55%;
+    border-radius: 10px;
+}
+
+.hearty{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+}
+
+.hearty1{
+    margin-left: 15%;
+    display: flex;
+    height: 45%;
+}
+
+.hearty h4{
+    font-size: 20px;
+}
+
+.hearty input{
+    height: 100%;
+    width: 50%;
+    border: light;
+}
+
+.hearty button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    margin-right: 16%;
+    /* width: 20%; */
+    
+}
+
+
+.hearty p{
+   font-size: 9px;
+   color: grey; 
+}
+
+.hearty1 input{
+    height: 35%;
+    width: 30%;
+}
+
+
+.hearty2{
+    margin-left: 15%;
+}
+
+.hearty2 h5{
+    font-size: large;
+    color: rgb(78, 78, 78);
+}
+
+.hearty3{
+    margin-left: 35%;
+}
+
+.hearty3 h6{
+    font-size: large;
+    margin-bottom: 8%;
+    color: rgb(94, 92, 92);
+    align-items: baseline;
+}
+
+    
+
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description h1{
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    font-weight: 900;
+}
+
+.description p{
+    font-size: 19px;
+    color: rgb(81, 81, 81);
+}
+
+.description a{
+    text-decoration: none;
+    color: rgb(230, 36, 36);
+}
+
+.description a:hover{
+    color: rgb(222, 35, 35);
+    text-decoration: underline;
+}
+
